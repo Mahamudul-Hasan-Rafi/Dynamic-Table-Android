@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:id="@+id/table_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="0">
+                <TableRow>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="COLORS"
+                        android:fontFamily="sans-serif"
+                        android:textAppearance="?attr/textAppearanceLargePopupMenu"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:background="#f71955"
+                        android:textColor="#161615"
+                        android:padding="10dp"/>
+                </TableRow>
+            </TableLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+    <Button
+        android:id="@+id/add_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add new COLOR"
+        android:background="@drawable/button_bg"
+        android:padding="15dp"
+        android:elevation="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Dynamic_Table</string>
+    <string-array name="colors_name">
+        <item>Yellow</item>
+        <item>Red</item>
+        <item>Violet</item>
+        <item>Green</item>
+        <item>Orange</item>
+        <item>Blue</item>
+        <item>Chocolate</item>
+        <item>Gray</item>
+        <item>White</item>
+        <item>Black</item>
+        <item>Purple</item>
+        <item>LightSalmon</item>
+    </string-array>
+</resources>
